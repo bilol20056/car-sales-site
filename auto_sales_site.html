@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосалон</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .car-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .car-card:hover {
+            transform: scale(1.05);
+        }
+        .car-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .car-details {
+            margin: 1rem 0;
+        }
+        .car-details h3 {
+            margin: 0.5rem 0;
+        }
+        .price {
+            font-size: 1.2rem;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .contact-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Продажа автомобилей</h1>
+</header>
+
+<div class="container">
+    <!-- Пример карточек автомобилей -->
+    <div class="car-card">
+        <img src="https://via.placeholder.com/300x200" alt="Car Image" class="car-image">
+        <div class="car-details">
+            <h3>BMW X5</h3>
+            <p>Год: 2020<br>Пробег: 50,000 км</p>
+            <p class="price">Цена: 5,000,000 ₽</p>
+            <button class="contact-button">Связаться</button>
+        </div>
+    </div>
+
+    <div class="car-card">
+        <img src="https://via.placeholder.com/300x200" alt="Car Image" class="car-image">
+        <div class="car-details">
+            <h3>Mercedes-Benz E-Class</h3>
+            <p>Год: 2019<br>Пробег: 40,000 км</p>
+            <p class="price">Цена: 4,500,000 ₽</p>
+            <button class="contact-button">Связаться</button>
+        </div>
+    </div>
+
+    <div class="car-card">
+        <img src="https://via.placeholder.com/300x200" alt="Car Image" class="car-image">
+        <div class="car-details">
+            <h3>Audi Q7</h3>
+            <p>Год: 2021<br>Пробег: 20,000 км</p>
+            <p class="price">Цена: 6,000,000 ₽</p>
+            <button class="contact-button">Связаться</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Автосалон. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
